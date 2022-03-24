@@ -1,11 +1,11 @@
 .container {
-    width: 90vw;
+    width: 90%;
     max-width: 2024px;
-    min-height: 100vh;
+    min-height: 100%;
     margin: auto;
 }
 .container .bloco {
-    width: 100vw;
+    width: 100%;
     min-height: 100px;
     margin-bottom: 100px;
 }
@@ -52,12 +52,12 @@
 .container .bloco .h-itens .item {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     min-height: 220px;
 }
 .container .bloco .h-itens .item .work {
-    min-width: 25vw;
-    max-width: 25vw;
+    min-width: 25%;
+    max-width: 25%;
     min-height: 100px;
 }
 .container .bloco .h-itens .item .work h2 {
@@ -69,7 +69,7 @@
     text-transform: uppercase;
 }
 .container .bloco .h-itens .item .description {
-    width: 75vw;
+    width: 75%;
     min-height: 100px;
 }
 .container .bloco .h-itens .item .description h2 {
@@ -85,7 +85,7 @@
 }
 
 .container .h-educacao .h-title-educacao h2 {
-    margin-top: 5vh;
+    margin-top: 5%;
 }
 .container .h-educacao .item {
     min-height: 220px;
@@ -105,7 +105,7 @@
     margin-bottom: 50px;
 }
 .container .h-habilidades .h-title-habilidades h2 {
-    margin-top: 5vh;
+    margin-top: 5%;
 }
 .container .h-habilidades .item {
     display: flex;
@@ -166,7 +166,7 @@
     margin-bottom: 50px;
 }
 .container .h-contato .h-title-contato h2 {
-    margin-top: 5vh;
+    margin-top: 5%;
 }
 .container .h-contato .item {
     min-height: 80px;
@@ -178,7 +178,7 @@
     color: #00E0FF;
 }
 footer {
-    width: 100vw;
+    width: 100%;
     height: 50px;
     background-color: #00E0FF;
 }
