@@ -1,17 +1,14 @@
 .container {
-    width: 90%;
+    width: 90vw;
     max-width: 2024px;
-    min-height: 100%;
+    min-height: 100vh;
     margin: auto;
-    font-family: 'Oswald', sans-serif;
 }
-
 .container .bloco {
-    width: 100%;
+    width: 100vw;
     min-height: 100px;
     margin-bottom: 100px;
 }
-
 .container h2, span {
     margin-top: 0%;
     font-weight: bold;
@@ -19,19 +16,11 @@
     text-transform: uppercase;
     color: #000000;
 }
-
 .container p {
     font-weight: normal;
     font-size: 18px;
     color: #000000;
     text-align: justify;
-}
-
-.container .h-habilidades .item .icon .percentual-10, .percentual-50, .percentual-80, .percentual-100 {
-    width: 110px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;
 }
 
 /*Name*/
@@ -63,12 +52,12 @@
 .container .bloco .h-itens .item {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     min-height: 220px;
 }
 .container .bloco .h-itens .item .work {
-    min-width: 25%;
-    max-width: 25%;
+    min-width: 25vw;
+    max-width: 25vw;
     min-height: 100px;
 }
 .container .bloco .h-itens .item .work h2 {
@@ -80,7 +69,7 @@
     text-transform: uppercase;
 }
 .container .bloco .h-itens .item .description {
-    width: 75%;
+    width: 75vw;
     min-height: 100px;
 }
 .container .bloco .h-itens .item .description h2 {
@@ -96,7 +85,7 @@
 }
 
 .container .h-educacao .h-title-educacao h2 {
-    margin-top: 5%;
+    margin-top: 5vh;
 }
 .container .h-educacao .item {
     min-height: 220px;
@@ -116,7 +105,7 @@
     margin-bottom: 50px;
 }
 .container .h-habilidades .h-title-habilidades h2 {
-    margin-top: 5%;
+    margin-top: 5vh;
 }
 .container .h-habilidades .item {
     display: flex;
@@ -141,15 +130,30 @@
     background: transparent;
 }
 
-/* Percentuais*/
-.container .h-habilidades .item .icon .percentual-50 {
-    width: 150px;   
+/* Percentuais */
+.container .h-habilidades .item .icon #percentual-10 {
+    width: 110px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
 }
-.container .bloco .h-habilidades .item .icon .percentual-80 {
+.container .h-habilidades .item .icon #percentual-50 {
+    width: 150px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
+}
+.container .h-habilidades .item .icon #percentual-80 {
     width: 180px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
 }
-.container .h-habilidades .item .icon .percentual .percentual-100 {
-    width: 200px; 
+.container .h-habilidades .item .icon #percentual-100 {
+    width: 200px;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
 }
 
 /* Contato */
@@ -162,7 +166,7 @@
     margin-bottom: 50px;
 }
 .container .h-contato .h-title-contato h2 {
-    margin-top: 5%;
+    margin-top: 5vh;
 }
 .container .h-contato .item {
     min-height: 80px;
@@ -174,7 +178,7 @@
     color: #00E0FF;
 }
 footer {
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: #00E0FF;
 }
